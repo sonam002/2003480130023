@@ -19,5 +19,5 @@ Make sure you have the following software installed on your system:
    git clone https://github.com/your-username/your-project.git
 
 ### Output snapshot
+<img width="960" alt="snap" src="https://github.com/sonam002/2003480130023/assets/84588128/e5660263-0420-4c6d-b413-69f74c36fa3f">
 
-<img align="center" src="snap.png" alt="affordmed" height="30" width="40" />
