@@ -17,3 +17,7 @@ Make sure you have the following software installed on your system:
 
    ```shell
    git clone https://github.com/your-username/your-project.git
+
+### Output snapshot
+
+<img align="center" src="snap.png" alt="affordmed" height="30" width="40" />
