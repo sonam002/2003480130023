@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>John Doe Railways</title>
+    <!-- Include Tailwind CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css" rel="stylesheet">
+    <!-- Custom CSS (you can create a separate CSS file and link it here) -->
+    <style>
+        /* Add your custom styles here */
+    </style>
+</head>
+<body class="bg-gradient-to-b from-blue-100 to-blue-300">
+    <header class="bg-blue-500 py-4 text-white text-center">
+        <h1 class="text-4xl font-extrabold tracking-tight">Welcome to John Doe Railways</h1>
+        <p class="text-xl mt-2">Real-Time Train Schedules, Seat Availability, and Prices</p>
+    </header>
+    <main class="container mx-auto p-4">
+        <section class="bg-white shadow-md rounded-lg p-4 mb-4">
+            <!-- Add search filters and input fields here -->
+        </section>
+        <section>
+            <h2 class="text-3xl font-semibold mb-4">Available Trains</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                <!-- Train Card Example -->
+                <div class="bg-white rounded-lg p-6 shadow-lg hover:shadow-xl transform hover:-translate-y-2 transition-transform duration-300">
+                    <h3 class="text-xl font-semibold">Chennai Exp</h3>
+                    <p class="text-gray-600">Train Number: 2344</p>
+                    <p class="text-gray-600">Departure Time: 21:35:00</p>
+                    <div class="mt-4">
+                        <p class="text-gray-600">Seats Available:</p>
+                        <ul class="list-disc list-inside">
+                            <li>Sleeper: 3</li>
+                            <li>AC: 1</li>
+                        </ul>
+                    </div>
+                    <div class="mt-4">
+                        <p class="text-gray-600">Price:</p>
+                        <ul class="list-disc list-inside">
+                            <li>Sleeper: $2</li>
+                            <li>AC: $5</li>
+                        </ul>
+                    </div>
+                    <p class="text-gray-600">Delay: 15 minutes</p>
+                    <button class="mt-4 bg-blue-500 hover:bg-blue-700 text-white py-2 px-4 rounded-lg transition duration-300">Book Now</button>
+                </div>
+                <div class="bg-white rounded-lg p-6 shadow-lg hover:shadow-xl transform hover:-translate-y-2 transition-transform duration-300">
+                    <h3 class="text-xl font-semibold">Hyderabad Exp</h3>
+                    <p class="text-gray-600">Train Number: 2341</p>
+                    <p class="text-gray-600">Departure Time: 23:55:00</p>
+                    <div class="mt-4">
+                        <p class="text-gray-600">Seats Available:</p>
+                        <ul class="list-disc list-inside">
+                            <li>Sleeper: 6</li>
+                            <li>AC: 7</li>
+                        </ul>
+                    </div>
+                    <div class="mt-4">
+                        <p class="text-gray-600">Price:</p>
+                        <ul class="list-disc list-inside">
+                            <li>Sleeper: $554</li>
+                            <li>AC: $1854</li>
+                        </ul>
+                    </div>
+                    <p class="text-gray-600">Delay: 5 minutes</p>
+                    <button class="mt-4 bg-blue-500 hover:bg-blue-700 text-white py-2 px-4 rounded-lg transition duration-300">Book Now</button>
+                </div>
+                <!-- Add more train cards here -->
+            </div>
+        </section>
+    </main>
+    <footer class="bg-blue-500 py-2 text-white text-center">
+        <p>&copy; 2023 John Doe Railways</p>
+    </footer>
+    <!-- Add your JavaScript file here (if needed) -->
+    <script src="script.js"></script>
+</body>
+</html>
